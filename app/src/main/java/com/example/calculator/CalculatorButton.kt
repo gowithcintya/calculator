@@ -44,7 +44,7 @@ fun CalculatorButton(
 
 @Composable
 @Preview
-fun CalculatorPreview() {
+fun CalculatorButtonPreview() {
     Column(
         modifier = Modifier
             .fillMaxSize()
