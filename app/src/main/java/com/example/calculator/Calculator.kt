@@ -13,7 +13,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Color.Companion.DarkGray
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -21,6 +20,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.calculator.ui.theme.LightGray
+import com.example.calculator.ui.theme.MediumGray
 import com.example.calculator.ui.theme.Orange
 
 val BUTTON_SPACING = 8.dp
@@ -117,7 +117,7 @@ fun SecondRow(
         CalculatorButton(
             symbol = "7",
             modifier = Modifier
-                .background(DarkGray)
+                .background(MediumGray)
                 .aspectRatio(FIRST_WEIGHT)
                 .weight(FIRST_WEIGHT),
             onClick = {
@@ -128,7 +128,7 @@ fun SecondRow(
         CalculatorButton(
             symbol = "8",
             modifier = Modifier
-                .background(DarkGray)
+                .background(MediumGray)
                 .aspectRatio(FIRST_WEIGHT)
                 .weight(FIRST_WEIGHT),
             onClick = {
@@ -139,7 +139,7 @@ fun SecondRow(
         CalculatorButton(
             symbol = "9",
             modifier = Modifier
-                .background(DarkGray)
+                .background(MediumGray)
                 .aspectRatio(FIRST_WEIGHT)
                 .weight(FIRST_WEIGHT),
             onClick = {
@@ -172,7 +172,7 @@ fun ThirdRow(
         CalculatorButton(
             symbol = "4",
             modifier = Modifier
-                .background(DarkGray)
+                .background(MediumGray)
                 .aspectRatio(FIRST_WEIGHT)
                 .weight(FIRST_WEIGHT),
             onClick = {
@@ -183,7 +183,7 @@ fun ThirdRow(
         CalculatorButton(
             symbol = "5",
             modifier = Modifier
-                .background(DarkGray)
+                .background(MediumGray)
                 .aspectRatio(FIRST_WEIGHT)
                 .weight(FIRST_WEIGHT),
             onClick = {
@@ -194,7 +194,7 @@ fun ThirdRow(
         CalculatorButton(
             symbol = "5",
             modifier = Modifier
-                .background(DarkGray)
+                .background(MediumGray)
                 .aspectRatio(FIRST_WEIGHT)
                 .weight(FIRST_WEIGHT),
             onClick = {
@@ -227,7 +227,7 @@ fun FourthRow(
         CalculatorButton(
             symbol = "1",
             modifier = Modifier
-                .background(DarkGray)
+                .background(MediumGray)
                 .aspectRatio(FIRST_WEIGHT)
                 .weight(FIRST_WEIGHT),
             onClick = {
@@ -238,7 +238,7 @@ fun FourthRow(
         CalculatorButton(
             symbol = "2",
             modifier = Modifier
-                .background(DarkGray)
+                .background(MediumGray)
                 .aspectRatio(FIRST_WEIGHT)
                 .weight(FIRST_WEIGHT),
             onClick = {
@@ -249,7 +249,7 @@ fun FourthRow(
         CalculatorButton(
             symbol = "3",
             modifier = Modifier
-                .background(DarkGray)
+                .background(MediumGray)
                 .aspectRatio(FIRST_WEIGHT)
                 .weight(FIRST_WEIGHT),
             onClick = {
@@ -282,7 +282,7 @@ fun FifthRow(
         CalculatorButton(
             symbol = "0",
             modifier = Modifier
-                .background(DarkGray)
+                .background(MediumGray)
                 .aspectRatio(SECOND_WEIGHT)
                 .weight(SECOND_WEIGHT),
             onClick = {
@@ -293,7 +293,7 @@ fun FifthRow(
         CalculatorButton(
             symbol = ".",
             modifier = Modifier
-                .background(DarkGray)
+                .background(MediumGray)
                 .aspectRatio(FIRST_WEIGHT)
                 .weight(FIRST_WEIGHT),
             onClick = {
