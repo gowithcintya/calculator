@@ -12,6 +12,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.calculator.ui.theme.CalculatorTheme
 import com.example.calculator.ui.theme.MediumGray
 
+val buttonSpacing = 8.dp
+val calculatorPadding = 16.dp
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +22,7 @@ class MainActivity : ComponentActivity() {
             CalculatorTheme {
                 val viewModel = viewModel<CalculatorViewModel>()
                 val state = viewModel.state
-                val buttonSpacing = 8.dp
+                val buttonSpacing = buttonSpacing
                 
                 Calculator(
                     state = state,
@@ -28,7 +31,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier
                         .fillMaxSize()
                         .background(MediumGray)
-                        .padding(16.dp)
+                        .padding(calculatorPadding)
                 )
             }
         }

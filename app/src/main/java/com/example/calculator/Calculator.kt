@@ -25,6 +25,9 @@ import com.example.calculator.ui.theme.Orange
 val BUTTON_SPACING = 8.dp
 const val FIRST_WEIGHT = 1f
 const val SECOND_WEIGHT = 2f
+val TEXT_PADDING = 32.dp
+val TEXT_FONT_SIZE = 80.sp
+const val TEXT_MAX_LINES = 2
 
 @Composable
 fun Calculator(
@@ -45,11 +48,11 @@ fun Calculator(
                 textAlign = TextAlign.End,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(vertical = 32.dp),
+                    .padding(vertical = TEXT_PADDING),
                 fontWeight = FontWeight.Light,
-                fontSize = 80.sp,
+                fontSize = TEXT_FONT_SIZE,
                 color = Color.White,
-                maxLines = 2
+                maxLines = TEXT_MAX_LINES
             )
             FirstRow(onAction)
             SecondRow(onAction)
