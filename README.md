@@ -11,7 +11,7 @@ A simple and intuitive calculator app developed using Kotlin and Android. This a
 
 ## Description
 
-The Calculator App is designed to provide users with a simple and efficient tool for performing basic arithmetic operations such as addition, subtraction, multiplication, and division. This app, built with Kotlin and Android, demonstrates the use of Jetpack Compose and MVVM architecture.
+The Calculator App is designed to provide users with a simple and efficient tool for performing basic arithmetic operations such as addition, subtraction, multiplication, and division. This app, built with `Kotlin` and `Android`, demonstrates the use of `Jetpack Compose` and `MVVM architecture`.
 
 ## Features
 
@@ -41,6 +41,6 @@ https://github.com/user-attachments/assets/f53facbc-a68f-4a2b-999f-fdce5e366883
 
 2. Use the on-screen buttons to input numbers and select operations.
 
-3. Press the = button to calculate the result.
+3. Press the `=` button to calculate the result.
 
-4. Use the Del button to clear the current input, one by one, or press the AC button to clear everything.
+4. Use the `Del` button to clear the current input, one by one, or press the `AC` button to clear everything.
