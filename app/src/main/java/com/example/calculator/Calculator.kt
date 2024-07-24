@@ -194,7 +194,7 @@ fun ThirdRow(
         )
 
         CalculatorButton(
-            symbol = "5",
+            symbol = "6",
             modifier = Modifier
                 .background(Color.DarkGray)
                 .aspectRatio(FIRST_WEIGHT)
