@@ -5,7 +5,7 @@ A simple and intuitive calculator app developed using Kotlin and Android. This a
 ## Table of Contents
 - [Description](#description)
 - [Features](#features)
-- [Screenshots](#screenshots)
+- [Evidence](#evidence)
 - [Installation](#installation)
 - [Usage](#usage)
 
@@ -15,13 +15,13 @@ The Calculator App is designed to provide users with a simple and efficient tool
 
 ## Features
 
-- Basic arithmetic operations: addition, subtraction, multiplication, and division
-- Clear functionality
-- User-friendly interface
+- Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Clear functionality.
+- User-friendly interface.
 
-## Evidences
+## Evidence
 
-![Calculator video](https://github.com/user-attachments/assets/f53facbc-a68f-4a2b-999f-fdce5e366883)
+https://github.com/user-attachments/assets/f53facbc-a68f-4a2b-999f-fdce5e366883
 
 ## Installation
 
